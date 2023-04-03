@@ -26,7 +26,6 @@ private void create() {
 	enterText(pom.book_quantity, "20");
 	enterText(pom.book_price, "250");
 	click(pom.submit);
-	
 	newPage.waitForTimeout(3000);
 	
 	click(pom.add_book);
@@ -36,7 +35,6 @@ private void create() {
 	enterText(pom.book_price, "300");
 	click(pom.submit);
 	screenshot("screen1");
-	
 	newPage.waitForTimeout(3000);
 
 }
@@ -45,13 +43,12 @@ private void create() {
 @Test(priority = 2)
 private void Read() {
 	
-	click(pom.edit);
+	 click(pom.edit);
      read(pom.book_name);
      read(pom.author_name);
      read(pom.book_quantity);
      read(pom.book_price);
      click(pom.submit);
-     
      newPage.waitForTimeout(3000);
 
 }
@@ -65,7 +62,6 @@ private void update() {
 	Fill(pom.book_price, "250");
 	click(pom.submit);
 	screenshot("screen2");
-	
 	newPage.waitForTimeout(3000);
 }
 
@@ -75,7 +71,6 @@ private void delete() {
 	
 	click(pom.delete);
 	screenshot("screen3");
-	
 	newPage.waitForTimeout(3000);
 }
 
