@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19653" started-at="2023-04-03T06:26:08Z" finished-at="2023-04-03T06:26:27Z">
+  <suite name="Default suite" duration-ms="21473" started-at="2023-04-03T15:08:19Z" finished-at="2023-04-03T15:08:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19653" started-at="2023-04-03T06:26:08Z" finished-at="2023-04-03T06:26:27Z">
-      <class name="playwrightproject.project">
-        <test-method status="PASS" signature="lanuch()[pri:0, instance:playwrightproject.project@45018215]" name="lanuch" is-config="true" duration-ms="11248" started-at="2023-04-03T06:26:08Z" finished-at="2023-04-03T06:26:19Z">
+    <test name="Default test" duration-ms="21473" started-at="2023-04-03T15:08:19Z" finished-at="2023-04-03T15:08:41Z">
+      <class name="playwrightproject.assignment">
+        <test-method status="PASS" signature="lanuch()[pri:0, instance:playwrightproject.assignment@65d6b83b]" name="lanuch" is-config="true" duration-ms="4789" started-at="2023-04-03T15:08:19Z" finished-at="2023-04-03T15:08:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lanuch -->
-        <test-method status="PASS" signature="createBook()[pri:0, instance:playwrightproject.project@45018215]" name="createBook" duration-ms="2487" started-at="2023-04-03T06:26:19Z" finished-at="2023-04-03T06:26:21Z">
+        <test-method status="PASS" signature="create()[pri:1, instance:playwrightproject.assignment@65d6b83b]" name="create" duration-ms="6866" started-at="2023-04-03T15:08:24Z" finished-at="2023-04-03T15:08:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createBook -->
-        <test-method status="PASS" signature="updateBook()[pri:1, instance:playwrightproject.project@45018215]" name="updateBook" duration-ms="4174" started-at="2023-04-03T06:26:21Z" depends-on-methods="playwrightproject.project.createBook" finished-at="2023-04-03T06:26:26Z">
+        </test-method> <!-- create -->
+        <test-method status="PASS" signature="Read()[pri:2, instance:playwrightproject.assignment@65d6b83b]" name="Read" duration-ms="3085" started-at="2023-04-03T15:08:31Z" finished-at="2023-04-03T15:08:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateBook -->
-        <test-method status="PASS" signature="readBook()[pri:2, instance:playwrightproject.project@45018215]" name="readBook" duration-ms="1164" started-at="2023-04-03T06:26:26Z" depends-on-methods="playwrightproject.project.updateBook" finished-at="2023-04-03T06:26:27Z">
+        </test-method> <!-- Read -->
+        <test-method status="PASS" signature="update()[pri:3, instance:playwrightproject.assignment@65d6b83b]" name="update" duration-ms="3412" started-at="2023-04-03T15:08:34Z" finished-at="2023-04-03T15:08:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readBook -->
-        <test-method status="PASS" signature="deleteBookDetails()[pri:3, instance:playwrightproject.project@45018215]" name="deleteBookDetails" duration-ms="515" started-at="2023-04-03T06:26:27Z" depends-on-methods="playwrightproject.project.readBook" finished-at="2023-04-03T06:26:27Z">
+        </test-method> <!-- update -->
+        <test-method status="PASS" signature="delete()[pri:4, instance:playwrightproject.assignment@65d6b83b]" name="delete" duration-ms="3277" started-at="2023-04-03T15:08:37Z" finished-at="2023-04-03T15:08:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteBookDetails -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:playwrightproject.project@45018215]" name="teardown" is-config="true" duration-ms="19" started-at="2023-04-03T06:26:27Z" finished-at="2023-04-03T06:26:27Z">
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:playwrightproject.assignment@65d6b83b]" name="teardown" is-config="true" duration-ms="11" started-at="2023-04-03T15:08:41Z" finished-at="2023-04-03T15:08:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- playwrightproject.project -->
+      </class> <!-- playwrightproject.assignment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
