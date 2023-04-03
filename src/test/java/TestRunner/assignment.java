@@ -1,4 +1,4 @@
-package playwrightproject;
+package TestRunner;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
